@@ -293,27 +293,27 @@ export default function Homepage() {
                                             <img class="d-block w-100 px-3  mb-3" src={company2} alt=""/>
                                         </div>
                                     </div>
-
                                 </div>
+                                
                                 <div class="carousel-item">
                                     <div class="row">
                                         <div class="col-6 col-lg-2 align-self-center">
                                             <img class="d-block w-100 px-3 mb-3" src={company1} alt=""/>
                                         </div>
                                         <div class="col-6 col-lg-2  align-self-center">
-                                            <img class="d-block w-100 px-3  mb-3" src={company2} alt=""/>
+                                            <img class="d-block w-100 px-3 mb-3" src={company2} alt=""/>
                                         </div>
                                         <div class="col-6 col-lg-2  align-self-center">
-                                            <img class="d-block w-100 px-3  mb-3" src={company3} alt=""/>
+                                            <img class="d-block w-100 px-3 mb-3" src={company3} alt=""/>
                                         </div>
                                         <div class="col-6 col-lg-2  align-self-center">
-                                            <img class="d-block w-100 px-3  mb-3" src={company4} alt=""/>
+                                            <img class="d-block w-100 px-3 mb-3" src={company4} alt=""/>
                                         </div>
                                         <div class="col-6 col-lg-2  align-self-center">
-                                            <img class="d-block w-100 px-3  mb-3" src={company5} alt=""/>
+                                            <img class="d-block w-100 px-3 mb-3" src={company5} alt=""/>
                                         </div>
                                         <div class="col-6 col-lg-2  align-self-center">
-                                            <img class="d-block w-100 px-3  mb-3" src={company1} alt=""/>
+                                            <img class="d-block w-100 px-3 mb-3" src={company1} alt=""/>
                                         </div>
                                     </div>
                                 </div>
