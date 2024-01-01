@@ -1,0 +1,242 @@
+
+#homepage-movie_heading {
+    font-family: oswald;
+}
+#homepage-movie_subheading {
+    font-family: roboto;
+}
+
+#homepage-moviecard_background{
+    background-image: linear-gradient(180deg, #691908 , #050202be );
+}
+
+ .card{
+     width: 100%;
+     height: 60vh;
+     border-radius: 20px;
+     overflow: hidden;
+     /* border: 8px solid #ffffff; */
+     position: relative;
+ }
+ 
+ .card-img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     border-radius: 15px;
+ }
+   
+ .card-body{
+     width: 100%;
+     height: 70vh;
+     top: 0px;
+     position: absolute;
+     background: #1f3d4738;
+     border-radius: 15px;
+     color: #fff;
+     padding: 30px;
+     transition: 2s;
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .card-left-btn{
+    left: -140%;
+    position: relative;
+    transition: 0.5s;
+ }
+ 
+ .card-right-btn{
+    right: -140%;
+    position: relative;
+    transition: 0.5s;
+ }
+ 
+ .card:hover  .card-left-btn  {
+     left: 0;
+ }
+ .card:hover  .card-right-btn  {
+     right: 0;
+ }
+
+ .card:hover .card-body{
+     backdrop-filter: blur(2px);
+ }
+
+ .card-btn {
+     color: #ffffff;
+     background: red;
+     padding: 10px 20px;
+     width: 140px;
+     border-radius: 5px;
+     text-transform: capitalize;
+     border: none;
+     outline: none;
+     font-weight: bold;
+     cursor: pointer;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     position: relative;     
+ }
+
+ .card-left-btn ,  .card-right-btn{
+    position: relative;
+    top: 20%;   
+ }
+
+ .card-btn:hover{
+    background-color: rgba(255, 0, 0, 0.582);
+ }
+
+/* -------------------------------- */
+
+.glass-panel {
+    color: #fff;
+    margin: 40px auto;
+    background-color: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    width: 100%;
+    border-radius: 15px;
+    padding: 32px;
+    backdrop-filter: blur(10px);
+  }
+  
+  
+
+  #homepage-register_event {
+    height: 80vh;
+    background: url(../../assets/images/event.avif ) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    font-family: "Lucida Handwriting";
+  }
+  
+  .glass-panel {  
+    max-width: 65%;
+  }
+  
+
+  
+  h1, h1 a {
+    min-height: 120px;
+    width: 90%;
+    /* max-width: 700px; */
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 60px;
+    color: rgba(255,255,255,0.8);
+  }
+  
+  p {
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 32px;
+    color: rgba(255,255,255,0.6);
+  }
+
+
+
+
+/* -------------------------------- */
+ #homepage-referal_section1{
+    border-radius: 20px;
+    background-image: linear-gradient(180deg, #691908 , #05020233 );
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Horizontal offset, vertical offset, blur radius, and color */
+    transition: box-shadow 0.3s ease-in-out; /* Add a smooth transition effect */
+    
+}
+
+#homepage-referal_section{
+     background-image: linear-gradient(180deg, #000000 , #050202e2 );
+     padding: .5px .5px .5px .5px;
+
+ }
+
+
+#homepage-referal_image{
+    width: 85%;
+    position: relative;
+    top: 19%;
+}
+#homepage-referal_section2{
+    font-family: oswald;
+}
+
+
+.homepage-content{
+    background-color: #000000;
+    width: 80%;
+    position: relative;
+    top: 50%;
+    padding: 20px;
+    color: #fff;
+    background-color: rgb(7, 26, 26);
+    height: 60%;
+}
+
+
+#homepage-card1{
+    background-image: url(../../assets/images/featured_event_img1.png);
+    background-size: cover; /* or background-size: contain; */
+    background-position: center; /* Optional: Center the background image */
+    background-repeat: no-repeat;
+    margin: 0; 
+     height: 470px;;
+    width: 90%;
+}
+
+#homepage-card2{
+    background-image: url(../../assets/images/featured_event_img2.png);
+    background-size: cover; /* or background-size: contain; */
+    background-position: center; /* Optional: Center the background image */
+    background-repeat: no-repeat;
+    margin: 0; 
+     height: 470px;;
+    width: 90%;
+}
+
+#homepage-card3{
+    background-image: url(../../assets/images/featured_event_img3.png);
+    background-size: cover; /* or background-size: contain; */
+    background-position: center; /* Optional: Center the background image */
+    background-repeat: no-repeat;
+    margin: 0; 
+     height: 470px;;
+    width: 90%;
+}
+#homepage-card4{
+    background-image: url(../../assets/images/featured_event_img4.png);
+    background-size: cover; /* or background-size: contain; */
+    background-position: center; /* Optional: Center the background image */
+    background-repeat: no-repeat;
+    margin: 0; 
+     height: 470px;;
+    width: 90%;
+}
+
+#homepage-card5{
+    background-image: url(../../assets/images/featured_event_img5.png);
+    background-size: cover; /* or background-size: contain; */
+    background-position: center; /* Optional: Center the background image */
+    background-repeat: no-repeat;
+    margin: 0; 
+     height: 470px;;
+    width: 90%;
+}
+#homepage-card6{
+    background-image: url(../../assets/images/featured_event_img6.png);
+    background-size: cover; /* or background-size: contain; */
+    background-position: center; /* Optional: Center the background image */
+    background-repeat: no-repeat;
+    margin: 0; 
+     height: 470px;;
+    width: 90%;
+}

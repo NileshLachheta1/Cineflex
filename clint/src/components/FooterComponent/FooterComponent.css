@@ -1,0 +1,512 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+.no-margin {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+html,
+body {
+    font-family: 'roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    width: 100%;
+    height: 100%;
+    color: #333;
+}
+
+body .main {
+    background: #060f19;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:focus,
+a:hover:focus,
+button:focus,
+button:hover:focus,
+.btn:focus,
+.btn:hover:focus,
+a:hover {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    -webkit-border: none;
+    -moz-border: none;
+    -ms-border: none;
+    -o-border: none;
+}
+
+.footer-bg {
+    background-position: center;
+    padding-top: 58px;
+}
+
+.footer-bg {
+    background-image: url('../../assets/images/Footer.jpg');
+    background-position: top;
+    background-size: cover;
+    padding: 118px 0;
+    position: relative;
+    z-index: 0;
+    padding-bottom: 42px;
+    padding-top: 40px;
+}
+
+.footer-bg:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(6, 15, 25, 0.7);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -2;
+    
+}
+
+.ft-widget h2 span {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 3px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.ft-widget h2 span:after {
+    content: "";
+    width: 33px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+}
+
+.social-links {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.social-links a {
+    margin: 5px;
+}
+
+.social-links {
+    margin-top: 8px;
+}
+
+.social-links a:hover {
+    color: #13be13;
+}
+
+.social-link ul li {
+    display: inline-block;
+}
+
+.social-link ul li a {
+    width: 35px;
+    height: 35px;
+    display: block;
+    padding: 7px 0;
+    text-align: center;
+    border-radius: 100%;
+    color: #fff;
+    margin-right: 8px;
+}
+
+.social-link ul li a:hover {
+    color: #333;
+    background: #fff;
+}
+
+a.ft-fb {
+    background: #3b5998;
+}
+
+a.ft-twitter {
+    background-color: #02b0e8;
+}
+
+a.ft-pintarest {
+    background-color: #b00a1b;
+}
+
+a.ft-youtube {
+    background-color: #c22e2a;
+}
+
+a.ft-linkedin {
+    background-color: #00a098;
+    color: #fff;
+}
+
+.ft-content>ul {
+    margin-top: 16px;
+}
+
+.ft-content>ul li a {
+    line-height: 33px;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.ft-content>ul li a:hover {
+    color: #13be13;
+    margin-left: 7px;
+}
+
+.ft-content img {
+    width: 100%;
+}
+
+.ft-content p {
+    color: #fff;
+    padding: 20px 0;
+}
+
+.ft-content.twitter-contnt {
+    padding: 21px;
+    background-color: rgba(30, 34, 40, 0.6);
+}
+
+.twitter-contnt h2 {
+    margin-bottom: 21px;
+}
+
+.ft-twitter-icon {
+    display: inline-block;
+    clear: both;
+    float: left;
+    height: 119px;
+    margin-right: 24px;
+    margin-top: 20px;
+    color: #13be13;
+    font-size: 17px;
+}
+
+.ft-twitter-icon span {
+    position: relative;
+}
+
+.ft-twitter-icon span:after {
+    content: "";
+    height: 41px;
+    width: 2px;
+    background: #13be13;
+    position: absolute;
+    right: -9px;
+    top: -12px;
+}
+
+.twitter-dec p {
+    padding-top: 6px;
+}
+
+.twitter-dec>a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.twitter-dec>a:hover {
+    color: #13be13;
+}
+
+.twitter-meta ul li a:hover {
+    color: #13be13;
+}
+
+.twitter-meta ul li a {
+    color: #999999;
+}
+
+.twitter-meta ul li {
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+.twitter-meta ul li a span {
+    margin: 4px;
+}
+
+.ft-widget .newsletter {
+    margin-top: 20px;
+}
+
+.newsletter-input input:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #fff;
+}
+
+.newsletter-input {
+    position: relative;
+    margin-top: 24px;
+}
+
+.newsletter-input input {
+    width: 100%;
+    border-radius: 100px;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 16px;
+    height: 42px;
+    color: #fff;
+}
+
+button.newsletter-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: transparent;
+    color: #fff;
+    border: transparent;
+    border-left: 1px solid #fff;
+    padding: 10px 19px;
+    height: 100%;
+}
+
+button.newsletter-btn:hover {
+    background: #ff1744;
+    border-radius: 100px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-color: #ff1744;
+}
+
+.copyright {
+    padding: 20px 0 15px 0;
+}
+
+.footer-menu ul li {
+    display: inline-block;
+}
+
+.footer-menu ul li a {
+    display: block;
+    margin-right: 28px;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.footer-menu ul li a:hover {
+    color: #13be13;
+}
+
+.copyright-text {
+    text-align: right;
+    color: #fff;
+}
+
+.copyright-text a {
+    color: #ff1744;
+    text-transform: capitalize;
+}
+
+.copyright-text a:hover {
+    color: #fff;
+}
+
+
+@media (min-width:400px) and (max-width:480px) {
+    .footer-bg {
+        padding-top: 286px;
+    }
+
+    .product-filter .sm-width {
+        width: 100%;
+    }
+}
+
+
+@media (max-width:480px) and (orientation: landscape) {
+    .social-link ul li a {
+        margin-right: 0;
+    }
+
+    .footer-bg {
+        padding-top: 200px;
+        padding-bottom: 40px;
+    }
+
+    .sm-width {
+        width: 100%;
+    }
+
+    .footer-bg {
+        padding-top: 150px;
+    }
+
+    .ft-widget {
+        min-height: 281px;
+    }
+
+    .ft-widget h2 span {
+        display: block;
+        clear: both;
+        width: 100%;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+
+    .twitter-meta ul li {
+        margin: 0px 11px;
+    }
+
+    .footer-bg {
+        padding-top: 180px;
+    }
+}
+
+
+@media (min-width: 533px) and (max-width:660px) {
+    .product-filter .sm-width {
+        width: 100%;
+    }
+
+    .footer-menu {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .footer-bg {
+        padding-top: 26%;
+    }
+}
+
+
+
+@media (max-width:668px) and (orientation: landscape) {
+    .sm-width {
+        width: 50%;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+
+    .ft-widget {
+        min-height: 343px;
+    }
+
+    .twitter-meta ul li {
+        margin: 0px 11px;
+    }
+}
+
+
+@media (min-width:320px) and (max-width:667px) {
+    .footer-bg {
+        padding-top: 250px;
+    }
+
+    .ft-widget {
+        margin-top: 30px;
+    }
+
+    .footer-menu ul li a {
+        margin-right: 7px;
+    }
+
+    .copyright-text {
+        text-align: center;
+    }
+
+}
+
+
+@media (min-width:533px) and (max-width:620px) {
+    .ft-widget {
+        min-height: 366px;
+    }
+}
+
+@media (max-width:690px) and (orientation: landscape) {
+
+    .sm-width {
+        width: 50%;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+
+    .ft-widget {
+        min-height: 376px;
+    }
+
+    .footer-menu ul li a {
+        margin-right: 14px;
+    }
+}
+
+@media (max-width:853px) and (orientation: landscape) {
+    .copyright {
+        text-align: center;
+    }
+    .ft-widget {
+        min-height: 395px;
+    }
+    .footer-menu ul li a {
+        margin-right: 14px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+    .twitter-dec p {
+        padding: 0;
+        padding-right: 47px;
+        margin-bottom: 17px;
+    }
+    .ft-widget {
+        padding-bottom: 0;
+        margin-bottom: -48px;
+        margin-top: 83px;
+    }
+    .footer-bg {
+        padding-top: 206px;
+    }
+    .footer-menu ul li a {
+        margin-right: 22px;
+    }
+}
+
+
+@media (max-width:1024px) and (orientation: landscape) {
+    .social-link ul li a {
+        margin-right: 0;
+    }
+    .twitter-meta ul li {
+        margin: 0px;
+    }
+    .ft-content.twitter-contnt {
+        padding: 20px 14px;
+    }
+    .twitter-dec p {
+        padding: 0;
+        padding-bottom: 12px;
+    }
+}
