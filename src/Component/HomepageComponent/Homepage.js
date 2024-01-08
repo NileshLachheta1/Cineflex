@@ -42,7 +42,7 @@ export default function Homepage() {
                 <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12 p-2">
                     <div className="card homepage-card">
                         <img src={cardimage1} className="card-img" alt=""/>
-                        <div className="card-body">
+                        <div className="homepage-card-body">
                             <div className="card-left-btn m-4">
                                 <button className="card-btn  ">View Trailer</button>
                             </div>
@@ -55,7 +55,7 @@ export default function Homepage() {
                 <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12 p-2">
                     <div className="card homepage-card">
                         <img src={cardimage2} className="card-img" alt=""/>
-                        <div className="card-body">
+                        <div className="homepage-card-body">
                             <div className="card-left-btn m-4">
                                 <button className="card-btn ">View Trailer</button>
                             </div>
@@ -68,7 +68,7 @@ export default function Homepage() {
                 <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12 p-2">
                     <div className="card homepage-card">
                         <img src={cardimage3} className="card-img" alt=""/>
-                        <div className="card-body">
+                        <div className="homepage-card-body">
                             <div className="card-left-btn m-4">
                                 <button className="card-btn ">View Trailer</button>
                             </div>
@@ -81,7 +81,7 @@ export default function Homepage() {
                 <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12  p-2">
                     <div className="card homepage-card">
                         <img src={cardimage4} className="card-img" alt=""/>
-                        <div className="card-body">
+                        <div className="homepage-card-body">
                             <div className="card-left-btn m-4">
                                 <button className="card-btn btn">View Trailer</button>
                             </div>
@@ -96,7 +96,7 @@ export default function Homepage() {
                 <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12 p-2">
                     <div className="card homepage-card">
                         <img src={cardimage1} className="card-img" alt=""/>
-                        <div className="card-body">
+                        <div className="homepage-card-body">
                             <div className="card-left-btn m-4">
                                 <button className="card-btn  ">View Trailer</button>
                             </div>
@@ -109,7 +109,7 @@ export default function Homepage() {
                 <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12 p-2">
                     <div className="card homepage-card">
                         <img src={cardimage2} className="card-img" alt=""/>
-                        <div className="card-body">
+                        <div className="homepage-card-body">
                             <div className="card-left-btn m-4">
                                 <button className="card-btn ">View Trailer</button>
                             </div>
@@ -122,7 +122,7 @@ export default function Homepage() {
                 <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12 p-2">
                     <div className="card homepage-card">
                         <img src={cardimage3} className="card-img" alt=""/>
-                        <div className="card-body">
+                        <div className="homepage-card-body">
                             <div className="card-left-btn m-4">
                                 <button className="card-btn ">View Trailer</button>
                             </div>
@@ -135,7 +135,7 @@ export default function Homepage() {
                 <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12  p-2">
                     <div className="card homepage-card">
                         <img src={cardimage4} className="card-img" alt=""/>
-                        <div className="card-body">
+                        <div className="homepage-card-body">
                             <div className="card-left-btn m-4">
                                 <button className="card-btn btn">View Trailer</button>
                             </div>
@@ -148,14 +148,16 @@ export default function Homepage() {
             </div><br />
         </div>
     </div>
-    <div className="row bg-danger d-none d-xl-block d-lg-block d-md-block d-sm-block  ">
-        <div id="homepage-register_event" className="col-lg-12 col-md-12 p-sm-3 p-lg-5 p-md-5">
-            <div className="glass-panel">
-                <h1>Register Yourself For the Events</h1>
-                <p>Every man must decide whether he will walk in the light of creative altruism or in the darkness of eritdestructive selfishness. Ut porttitor et lectus ut tempus. Aliquam lacinia Every man must decide whether he will walk in the light of creative altruism or in the darkness.</p>
-            </div>
-            <div >
-                <button className="btn btn-danger  text-light">More Info </button>
+    <div className='container-fluid'>
+        <div className="row  d-none d-xl-block d-lg-block d-md-block d-sm-block  ">
+            <div id="homepage-register_event" className="col-lg-12 col-md-12 p-sm-3 p-lg-5 p-md-5">
+                <div className="glass-panel">
+                    <h1>Register Yourself For the Events</h1>
+                    <p>Every man must decide whether he will walk in the light of creative altruism or in the darkness of eritdestructive selfishness. Ut porttitor et lectus ut tempus. Aliquam lacinia Every man must decide whether he will walk in the light of creative altruism or in the darkness.</p>
+                </div>
+                <div >
+                    <button className="btn btn-danger text-light fw-bold w-25">More Info </button>
+                </div>
             </div>
         </div>
     </div>
